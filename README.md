@@ -22,6 +22,8 @@ Objetivo: Por meio desta conta fazer o portfólio e atingir a nota máxima, cada
 <h4>
   
   <p> Na aula do dia 15/06/2023 fizemos uma ativiade sobre o Envio de Dados no form. Foi bem fácil de fazer, tranquilo. </p>
+  
+  <p>
    'ARQUIVO GS'
      function doGet() {
   return HtmlService.createTemplateFromFile('formulario').evaluate();
@@ -60,7 +62,3 @@ function getUrl() {
 
   </p>
 </h4>
-
-<h5>
-  <p> </p>
-</h5>
