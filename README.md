@@ -17,8 +17,8 @@ Objetivo: Por meio desta conta fazer o portfólio e atingir a nota máxima, cada
 
 <h3>
   <p> Na aula do dia 01/06/2023 fizemos uma ativiade para calcular a média ponderada, tive um pouco de dificuldade porque o botão de mostrar o resultado não estava dando certo. </p>
-</h3>
  <a> https://script.google.com/macros/s/AKfycbzYIliR4tG8ED_345yd8K7INhJvkrpVfd5JKRVENSyIWUky6XHyBxukOb4XiRsvRD0g/exechttps://script.google.com/macros/s/AKfycbzYIliR4tG8ED_345yd8K7INhJvkrpVfd5JKRVENSyIWUky6XHyBxukOb4XiRsvRD0g/exec </a>
+</h3>
 
 <h4>
   <p> Na aula do dia 15/06/2023 fizemos uma ativiade sobre o Envio de Dados no form. Foi bem fácil de fazer, tranquilo. </p>
