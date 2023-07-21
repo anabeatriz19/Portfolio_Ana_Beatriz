@@ -1,0 +1,35 @@
+function doGet() {
+  return HtmlService.createTemplateFromFile('formulario').evaluate();
+}
+function doPost(e) {
+  Logger.log(e.parameter.Nome)
+  Logger.log(e.parameter.Sobrenome)
+}
+
+function getUrl() {
+  var url = ScriptApp.getService().getUrl();
+  return url
+}
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> formulario </title>
+    <base target="_top">
+  </head>
+  <body>
+    <? var url = getUrl() ?>
+
+    <form action="<?= url ?>" method="POST">
+      <label for="Nome">Nome</label>
+      <input type="text" id="text" name="Nome">
+
+       <label for="Sobrenome">Sobrenome</label>
+      <input type="text" id="text" name="Sobrenome">
+
+      <button type="submit">Enviar</button>
+    </form>
+
+  </body>
+</html>
