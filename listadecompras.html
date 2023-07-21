@@ -1,0 +1,51 @@
+function doGet() {
+  return HtmlService.createTemplateFromFile('Listadecompras').evaluate();
+}
+function incluir(nomeArquivo) {
+  return HtmlService.createHtmlOutputFromFile(nomeArquivo).getContent();
+}
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <base target="_top">
+
+</head>
+<body>
+  <h1>Formulário de Compra</h1>
+  <form>
+    <label for="produto">Produto:</label>
+    <input type="text" id="produto" name="produto" required><br>
+
+    <label for="quantidade">Quantidade:</label>
+    <input type="number" id="quantidade" name="quantidade" required><br>
+
+    <button type="button" onclick="gravarDados()">Cadastrar</button>
+  </form>
+
+  <table id="tabela-compras">
+    <tr>
+      <th>Produto</th>
+      <th>Quantidade</th>
+    </tr>
+  </table>
+
+  <script>
+    function gravarDados() {
+      var produto = document.getElementById('produto').value;
+      var quantidade = document.getElementById('quantidade').value;
+
+      
+      var tabela = document.getElementById('tabela-compras');
+      var linha = tabela.insertRow();
+
+      var celulaProduto = linha.insertCell(0);
+      celulaProduto.innerHTML = produto;
+
+      var celulaQuantidade = linha.insertCell(1);
+     celulaQuantidade.innerHTML = quantidade;
+    }
+  </script>
+</body>
+</html>
