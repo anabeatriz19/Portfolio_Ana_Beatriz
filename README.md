@@ -34,7 +34,7 @@ Tecnologia Utilizadas:
   </ul>
   
  Link para acesso ao projeto:
- <a href="https://script.google.com/macros/s/AKfycbzZAMCafpPSQqh3G4zGnvE9sxi6TXZvvzaIpw3JXtusiOrhUbbRMbUlZGmBIro7DbGX/exec">Calcular Média</a>
+ <a href="https://script.google.com/macros/s/AKfycbxbzL1EXmuDyAF0VF4n7cgkfSXKov5wb4uJudca0ZzQKtOeEp0wGZ5YftE65_ALovHT/exec">Calcular Média</a>
  
 
 <h1>Projeto: Página para fazer login</h1>
