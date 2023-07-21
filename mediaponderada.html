@@ -1,0 +1,47 @@
+function doGet() {
+  return HtmlService.createHtmlOutputFromFile('index')  
+}
+
+function calcularMedia(nota1, peso1, nota2, peso2) {
+  var media = ( (nota1*peso1) + (nota2*peso2) ) / (peso1+peso2);
+  Logger.log('Média: '+media)
+}
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <base target="_top">
+  </head>
+  <body>
+    <h1>Página de calcular média ponderada</h1>
+
+    <label for="nota1">Nota 1:</label>
+    <input type="number" id="nota1"/>
+
+    <label for="peso1">Peso 1:</label>
+    <input type="number" id="peso1"/>
+
+    <label for="nota2">Nota 2:</label>
+    <input type="number" id="nota2"/>
+
+    <label for="peso2">Peso 1:</label>
+    <input type="number" id="peso2"/>
+
+    <button onclick="calcularMedia()">Calcular média</button>
+
+    <script>
+
+      function calcularMedia(){
+
+        var Nota1 = parseFloat(document.getElementById('nota1').value;
+        var Peso1 = parseFloat(document.getElementById('peso1').value;
+        var Nota2 = parseFloat(document.getElementById('nota2').value;
+        var Peso2 = parseFloat(document.getElementById('peso2').value;
+
+        google.script.run.calcularMedia(Nota 1,Peso 1,Nota 2, Peso 2);
+      }
+
+    </script>
+  </body>
+</html>
