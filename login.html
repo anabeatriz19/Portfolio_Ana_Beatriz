@@ -1,0 +1,49 @@
+function doGet() {
+  return HtmlService.createHtmlOutputFromFile('index') 
+}
+function cadastrarLogin(email,senha) {
+  if (email == "aluno@ceep.com" && senha == "aluno123") {
+    return "Login Aceito";
+  }else{
+    return "Login Recusado";
+  }
+}
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <base target="_top">
+  </head>
+  <body>
+    <h1> Login </h1>
+
+    <label for= "email">Email:</label>
+    <input type="text" id= "email" required<br>
+
+    <label for= "senha">Senha:</label>
+    <input type="password" id= "password" required<br>
+
+    <button onclick="cadastrar()">Cadastrar</button>
+
+    <p> Resultado</p>
+    <p id="resultadoLogin"></p>
+
+    <script>
+      function Login(){
+
+        var email = document.getElementById('email').value;
+        var senha = document.getElementById('password').value;
+
+      google.script.run.withSuccessHandler('exibirLogin').cadastrarLogin(email,senha)
+      }
+
+      function exibirResultado(Login)  {
+        var exibirResultado = document.getElementById('resultadoLogin');
+        exibirResultado.inner.HTML = cadastrarLogin
+      }
+
+
+    </script>
+
+  </body>
+</html>
