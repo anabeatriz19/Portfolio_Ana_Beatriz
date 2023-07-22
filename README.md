@@ -88,7 +88,7 @@ Tecnologia Utilizada:
 Link para acesso ao projeto:
 <a href="https://script.google.com/macros/s/AKfycbxXLq6PJjFGG3cK2DUF78s7MA_oLElj5pD8DdI3mRIQdWbpvCueW_J6pTs9pEKq5sCY/exec">Planilha</a>
 
-<h1>Projeto: Página para fazer cálculo do valor da merenda</h1>
+<h1>Projeto: Página para fazer cálculo de quantos litros de gasolina Joana irá gastar em sua viagem</h1>
 
 Arquivo (s):
 <ul>
@@ -103,4 +103,4 @@ Tecnologia Utilizadas:
   </ul>
   
  Link para acesso ao projeto:
- <a href="https://script.google.com/macros/s/AKfycbwvsXcpF4ecolWLOFlAfmP6m1yEVoVqnVrD3cDF5AIpDI7x-JYY1VXfscry0MEVZylt/exec">lista de exercícios</a>
+ <a href="https://script.google.com/macros/s/AKfycbyBloCbma7NWUCmLYtHSAV35YZRG4EbPCW2x7Q7hyoHAyKTOvVMlQsjnxRFuSRL234C/exec">lista de exercícios</a>
